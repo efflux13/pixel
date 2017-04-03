@@ -1,0 +1,371 @@
+
+@media screen and (max-width: 925px){
+    .contact-left-bg{
+        padding: 0 10px 100px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .contact-left-bg .btn-group{
+        display: block; 
+
+        max-width: 186px;
+        height: 30px;
+        margin: 20px auto 0;
+    }
+    body{
+        width: 100%;
+        height: 100vh; 
+        margin: 0;
+        padding: 20px;
+
+        color: #fff;
+    }
+
+    /*border fix*/
+    .b-left{
+        position: fixed;
+        z-index: 100; 
+        top: 0;
+        left: 0;
+
+        width: 20px;
+        height: 100%;
+
+        background: #fff;
+    }
+
+    .b-right{
+        position: fixed;
+        z-index: 100; 
+        top: 0;
+        right: 0;
+
+        width: 20px;
+        height: 100%;
+
+        background: #fff;
+    }
+    .b-top{
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+
+        overflow: hidden; 
+
+        width: 100%;
+        height: 50px;
+
+        background: #fff;
+    }
+    .b-top .logo{
+        position: relative;
+        top: 7px; 
+        left: 40px;
+    }
+    .b-top .logo a{
+        text-decoration: none;
+    }
+    .b-top .logo a span{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        font-weight: 800; 
+
+        color: #282828;
+    }
+    .b-bottom{
+        position: fixed;
+        z-index: 100; 
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 50px;
+
+        background: #fff;
+    }
+    .b-bottom .icon-border{
+        font-weight: bold; 
+
+        position: absolute;
+        top: 12px;
+        left: 0;
+
+        width: 100%;
+
+        color: #282828;
+    }
+    .b-bottom .icon-border li{
+        left: 50%;
+
+        display: inline-block;
+
+        width: 24px;
+        height: 24px;
+        margin: 0 auto;
+        margin-left: 3px; 
+
+        list-style: none;
+
+        transition: all 1s;
+
+        background: url(../img/sprite-banner.png) no-repeat;
+    }
+    .b-bottom .icon-border .fb-1{
+        background-position: 0 0;
+    }
+    .b-bottom .icon-border .fb-1:hover{
+        background-position: -34px 0;
+    }
+    .b-bottom .icon-border .bh-1{
+        background-position: -68px 0;
+    }
+    .b-bottom .icon-border .bh-1:hover{
+        background-position: -102px 0;
+    }
+    .b-bottom .icon-border .tw-1{
+        background-position: -136px 0;
+    }
+    .b-bottom .icon-border .tw-1:hover{
+        background-position: -170px 0;
+    }
+    .b-bottom .icon-border .in-1{
+        background-position: -204px 0;
+    }
+    .b-bottom .icon-border .in-1:hover{
+        background-position: -238px 0;
+    }
+    .b-bottom .copyright{
+        display: none;
+
+        text-align: center;
+    }
+    .b-bottom .copyright span{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-weight: 700; 
+
+        position: relative;
+        top: 15px;
+
+        color: #282828;
+    }
+    .b-bottom .email-border{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 700; 
+
+        position: absolute;
+        top: 15px;
+        right: 50px;
+
+        display: block;
+
+        color: #282828;
+    }
+
+
+    .about-left-img{
+        height: 100%; 
+
+        background: url(../img/dew.jpg) no-repeat 50% 50%/cover;
+    }
+    .about-right-text .blq{
+        padding: 0 0;
+    }
+    .about-right-text .blq blockquote{
+        font-size: 12px;
+
+        background: #fff;
+    }
+    .about-right-text .btn-group{
+        display: block; 
+
+        max-width: 186px;
+        height: 30px;
+        margin: 10px auto;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .contact-rigth-bg{
+        height: 40%; 
+
+        background: url(../img/bre-6.jpg) no-repeat 50% 50%/cover;
+    }
+
+    .about-bg{
+        width: 100%;
+
+        background: #f9f9f9;
+        /*  height: 150%;*/
+    }
+    .about-left-img{
+        height: 40%; 
+
+        background: url(../img/dew.jpg) no-repeat 50% 50%/cover;
+    }
+    .about-right-text .btn-group{
+        display: block; 
+
+        max-width: 186px;
+        height: 30px;
+        margin: 20px auto 20px;
+    }
+}
+@media screen and (max-width: 477px){
+    .about-bg{
+        width: 100%;
+
+        background: #f9f9f9;
+        /*  height: 160%;*/
+    }
+    .about-left-img{
+        height: 40%; 
+
+        background: url(../img/dew.jpg) no-repeat 50% 50%/cover;
+    }
+    .about-right-text .btn-group{
+        display: block; 
+
+        max-width: 186px;
+        height: 30px;
+        margin: 20px auto 100px;
+    }
+}
+@media screen and (max-width: 375px){
+    .about-bg{
+        width: 100%;
+
+        background: #f9f9f9;
+        /*  height: 180%;*/
+    }
+    .about-left-img{
+        height: 40%; 
+
+        background: url(../img/dew.jpg) no-repeat 50% 50%/cover;
+    }
+    .about-right-text .btn-group{
+        display: block; 
+
+        max-width: 186px;
+        height: 30px;
+        margin: 20px auto 100px;
+    }
+
+
+    .b-bottom{
+        position: fixed;
+        z-index: 100; 
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 50px;
+
+        background: #fff;
+    }
+    .b-bottom .icon-border{
+        font-weight: bold; 
+
+        position: absolute;
+        top: 12px;
+
+        text-align: center;
+
+        color: #282828;
+    }
+    .b-bottom .icon-border li{
+        display: inline-block;
+
+        width: 24px;
+        height: 24px;
+        margin-left: 3px; 
+
+        list-style: none;
+
+        transition: all 1s;
+        text-align: center;
+
+        background: url(../img/sprite-banner.png) no-repeat;
+    }
+    .soc-banner{
+        margin-left: -40px;
+    }
+    .b-bottom .icon-border .fb-1{
+        background-position: 0 0;
+    }
+    .b-bottom .icon-border .fb-1:hover{
+        background-position: -34px 0;
+    }
+    .b-bottom .icon-border .bh-1{
+        background-position: -68px 0;
+    }
+    .b-bottom .icon-border .bh-1:hover{
+        background-position: -102px 0;
+    }
+    .b-bottom .icon-border .tw-1{
+        background-position: -136px 0;
+    }
+    .b-bottom .icon-border .tw-1:hover{
+        background-position: -170px 0;
+    }
+    .b-bottom .icon-border .in-1{
+        background-position: -204px 0;
+    }
+    .b-bottom .icon-border .in-1:hover{
+        background-position: -238px 0;
+    }
+    .b-bottom .copyright{
+        display: none;
+
+        text-align: center;
+    }
+    .b-bottom .copyright span{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-weight: 700; 
+
+        position: relative;
+        top: 15px;
+
+        color: #282828;
+    }
+    .b-bottom .email-border{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 700; 
+
+        position: absolute;
+        top: 15px;
+        right: 50px;
+
+        display: none;
+
+        color: #282828;
+    }
+}
+@media screen and (max-width: 325px){
+    .about-bg{
+        width: 100%;
+
+        background: #f9f9f9;
+        /*  min-height: 100%;*/
+    }
+    .about-left-img{
+        height: 40%; 
+
+        background: url(../img/dew.jpg) no-repeat 50% 50%/cover;
+    }
+    .about-right-text .btn-group{
+        display: block; 
+
+        max-width: 186px;
+        height: 30px;
+        margin: 20px auto 100px;
+    }
+}
